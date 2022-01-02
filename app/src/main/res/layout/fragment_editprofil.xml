@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomSheetDialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_menu"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="6dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/view_black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:riv_corner_radius="10dp" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="-15dp"
+                android:src="@drawable/img_edit_circle_icon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgProfile" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/productsansregular"
+                android:text="Nama" />
+
+            <EditText
+                android:id="@+id/edtNama"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="@drawable/bg_edt_profile"
+                android:inputType="text"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/productsansregular"
+                android:inputType="text"
+                android:paddingStart="2dp"
+                android:paddingEnd="2dp"
+                android:text="Gender" />
+
+            <EditText
+                android:id="@+id/edtGender"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="@drawable/bg_edt_profile"
+                android:inputType="text"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/productsansregular"
+            android:text="Email" />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="@drawable/bg_edt_profile"
+            android:inputType="text"
+            android:paddingStart="5dp"
+            android:paddingEnd="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/productsansregular"
+            android:inputType="text"
+            android:paddingStart="2dp"
+            android:paddingEnd="2dp"
+            android:text="Phone" />
+
+        <EditText
+            android:id="@+id/edtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:background="@drawable/bg_edt_profile"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSelesai"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/btn_rounded_purple"
+        android:fontFamily="@font/productsansregular"
+        android:text="Selesai"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

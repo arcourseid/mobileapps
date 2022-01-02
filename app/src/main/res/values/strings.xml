@@ -1,5 +1,35 @@
 <resources>
     <string name="app_name">ARCourse1</string>
     <!-- TODO: Remove or change this placeholder text -->
+    <string name="definisi">Secara umum, limas dapat diartikan sebagai salah satu bangun ruang sisi datar yang dibatasi oleh sebuah sisi alas yang berupa segibanyak dan sisi-sisi tegak yang berbentuk segitiga.
+            Salah satu titik sudut dari masing-masing segitiga tersebut bertemu pada satu titik yaitu titik puncak limas.\n
+            Pemberian nama pada limas berdasarkan pada bentuk alasnya. Suatu limas yang alasnya berbentuk segitiga disebut dengan limas segitiga, limas dengan sisi alas berbentuk segi empat diberi nama limas segi empat, dan begitu pula dengan sisi alas yang berbentuk segibanyak lainnya.
+    </string>
+    <string name="sifat">Berikut merupakan sifat-sifat yang dimiliki bangun ruang limas segi-n.\n
+            •	Banyak sisi\n
+                Banyak sisi pada limas segi-n adalah n + 1 buah, sebuah sisi alas dan n buah sisi tegak berbentuk segitiga.\n
+            •	Banyak titik sudut\n
+                Titik sudut pada limas segi-n ada sebanyak n + 1. Sebuah titik sudut merupakan titik puncak limas (pertemuan titik-titik sudut dari sisi tegak) dan  n buah sudut merupakan sudut yang terbentuk pertemuan titik sudut segi-n dengan sisi tegak.\n
+            •	Banyak rusuk\n
+                Banyak rusuk pada bangun limas segi-n adalah 2n buah.\n
+                Setelah mengetahui mengenai unsur dan sifat bangun limas, berikut akan dibahas mengenai penerapan bentuk limas dalam kehidupan sehari
+    </string>
+    <string name="kehidupan">
+        Bentuk-bentuk menyerupai limas sering dijumpai dalam kehidupan sehari-hari. Salah satu contohnya yaitu piramida. Bentuk piramida menyerupai bangun limas.
+        Piramida menyerupai bangun limas segiempat. Piramida dan bangun limas keduanya memiliki alas dan sisi tegak yang bertemu pada satu titik yaitu titik puncak limas/puncak piramida.
+        Contoh lainnya yaitu bentuk atap rumah. Terdapat beberapa rumah yang atapnya berbentuk limas segiempat.
+    </string>
+    <string name="jaring">
+        Bentuk jaring-jaring bangun limas dapat diketahui dari bentuk alas dan sisi-sisi tegak limas tersebut.Perhatikan beberapa bentuk jaring-jaring limas berikut. \n
+        Pada gambar berikut terdapat jaring-jaring limas segitiga dan limas segitujuh.
+    </string>
+    <string name="jaring1">
+        Bentuk jaring-jaring yang lainnya yaitu jaring-jaring limas segiempat ini. Perhatikan gambar limas segiempat dan jaring-jaringnya di bawah ini.
+    </string>
+    <string name="jaring2">
+        Pada jaring-jaring limas segiempat tersebut terdapat lima bangun datar yaitu sebuah segiempat dan empat buah segitiga yang kongruen. Pada bangun limas segiempat T.ABCD mempunyai jaring-jaring yang terdiri dari sebuah alas berbentuk segiempat yaitu segiempat ABCD dan empat buah segitiga yang kongruan yaitu segitiga TAB, TBC, TCD, serta segitiga TDA.
+        Bentuk jaring-jaring limas tersebut dapat digunakan untuk menentukan luas permukaan limas.
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

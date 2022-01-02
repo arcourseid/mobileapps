@@ -10,7 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ARCourse1">
         <activity
-            android:name=".HomeActivity"
+            android:name=".ResultActivity"
+            android:exported="true" />
+        <activity
+            android:name=".QuestionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ModulRewardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ModulActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StartActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,9 +37,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
-        </activity>
+            android:name=".HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AvatarActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

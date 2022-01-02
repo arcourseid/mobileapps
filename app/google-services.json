@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "165925302302",
+    "project_id": "arcourse-cb32a",
+    "storage_bucket": "arcourse-cb32a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165925302302:android:30cd428777f1cb6c1cfe0f",
+        "android_client_info": {
+          "package_name": "com.tugas.arcourse1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165925302302-q1fu389e43ipo3j67fep1sp5b5sq81hr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tugas.arcourse1",
+            "certificate_hash": "89c3db7cb8c8bc5f61dd7ee9000a70f4a43d200e"
+          }
+        },
+        {
+          "client_id": "165925302302-9ile151e21ff59alrtums8nrcu72bgk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaaW23LSrv5dTtkBFrTjmcsVbDHOInVac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165925302302-9ile151e21ff59alrtums8nrcu72bgk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

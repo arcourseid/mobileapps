@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ModulReward"
+        android:orientation="vertical"
+        android:padding="7dp">
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_home" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SELAMAT"
+            android:textColor="@color/purple_500"
+            android:textSize="50sp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Kamu menyelesaikan Modul"
+            android:textColor="@color/purple_500"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="243dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/img_koin" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Kamu dapat 10 koin"
+            android:textColor="@color/purple_500"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:shadowRadius="9"
+            android:text="Kerja Quis" />
+
+
+    </LinearLayout>
+
+</ScrollView>

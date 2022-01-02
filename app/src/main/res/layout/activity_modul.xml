@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="25dp"
+        android:layout_marginEnd="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bangun Ruang \n Limas"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#131313"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Definisi Limas"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="12dp"
+            android:textColor="#131313"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/definisi"
+            android:textColor="#252424"
+            />
+
+        <ImageView
+            android:id="@+id/img_contoh"
+            android:layout_width="228dp"
+            android:layout_height="146dp"
+            app:srcCompat="@drawable/img_contoh_limas"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sifat-sifat Limas Segi n"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="12dp"
+            android:textColor="#131313"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sifat"
+            android:textColor="#252424"
+            />
+
+        <ImageView
+            android:id="@+id/img_sifat"
+            android:layout_width="228dp"
+            android:layout_height="146dp"
+            app:srcCompat="@drawable/img_jenis_limas"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limas dalam Kehidupan Sehari-hari"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="12dp"
+            android:textColor="#131313"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kehidupan"
+            android:textColor="#252424"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jaring-jaring Limas"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="12dp"
+            android:textColor="#131313"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jaring"
+            android:textColor="#252424"
+            />
+
+        <ImageView
+            android:id="@+id/img_jaring"
+            android:layout_width="228dp"
+            android:layout_height="146dp"
+            app:srcCompat="@drawable/img_jaring_limas"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jaring1"
+            android:textColor="#252424"
+            />
+
+        <ImageView
+            android:id="@+id/img_jaring1"
+            android:layout_width="228dp"
+            android:layout_height="146dp"
+            app:srcCompat="@drawable/img_jaring_limas_segiempat"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jaring2"
+            android:textColor="#252424"
+            />
+
+        <Button
+            android:id="@+id/btn_modul"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:shadowRadius="9"
+            android:background="@drawable/btn_rounded_purple"
+            android:text="Selesai"
+            android:layout_marginBottom="50dp"
+            />
+    </LinearLayout>
+
+</ScrollView>

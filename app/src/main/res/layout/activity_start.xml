@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:id="@+id/text_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome to"
+        android:textColor="@color/deepBlue"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="AR Course"
+        android:textColor="@color/deepBlue"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="323dp"
+        android:layout_height="406dp"
+        app:srcCompat="@drawable/img_start" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="45dp"
+        android:background="@drawable/btn_rounded_purple"
+        android:gravity="center"
+        android:shadowRadius="9"
+        android:text="Sign Up" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="45dp"
+        android:background="@drawable/btn_top"
+        android:gravity="center"
+        android:shadowRadius="9"
+        android:text="Login"
+        android:textColor="@color/deepBlue" />
+
+</LinearLayout>
