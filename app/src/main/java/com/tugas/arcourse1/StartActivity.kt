@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.tugas.arcourse1.databinding.ActivityStartBinding
+import com.tugas.arcourse1.login.LoginActivity
+import com.tugas.arcourse1.login.RegisterActivity
 
 class StartActivity : AppCompatActivity() {
 

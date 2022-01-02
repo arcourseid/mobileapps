@@ -1,8 +1,11 @@
-package com.tugas.arcourse1
+package com.tugas.arcourse1.modul
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.tugas.arcourse1.HomeActivity
+import com.tugas.arcourse1.R
+import com.tugas.arcourse1.data.setData
 import kotlinx.android.synthetic.main.activity_result.*
 
 class ResultActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.tugas.arcourse1
+package com.tugas.arcourse1.modul
 
 import android.content.Intent
 import android.graphics.Color
@@ -7,6 +7,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 import androidx.core.content.ContextCompat
+import com.tugas.arcourse1.R
+import com.tugas.arcourse1.data.QuestionData
+import com.tugas.arcourse1.data.setData
 import kotlinx.android.synthetic.main.activity_question.*
 
 class QuestionActivity : AppCompatActivity() {
@@ -58,7 +61,7 @@ class QuestionActivity : AppCompatActivity() {
                         setQuestion()
                     }
                     else->{
-                        var intent= Intent(this,ResultActivity::class.java)
+                        var intent= Intent(this, ResultActivity::class.java)
                         intent.putExtra(setData.score,score.toString())
                         intent.putExtra("Total Size",questionList!!.size.toString())
                         startActivity(intent)

@@ -1,4 +1,4 @@
-package com.tugas.arcourse1
+package com.tugas.arcourse1.data
 
 class QuestionData (
     var id:Int,

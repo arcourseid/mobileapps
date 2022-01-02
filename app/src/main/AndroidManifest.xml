@@ -10,22 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ARCourse1">
         <activity
-            android:name=".ResultActivity"
+            android:name=".avatar.ShopActivity"
             android:exported="true" />
         <activity
-            android:name=".QuestionActivity"
+            android:name=".modul.ResultActivity"
             android:exported="true" />
         <activity
-            android:name=".ModulRewardActivity"
+            android:name=".modul.QuestionActivity"
             android:exported="true" />
         <activity
-            android:name=".ModulActivity"
+            android:name=".modul.ModulRewardActivity"
             android:exported="true" />
         <activity
-            android:name=".RegisterActivity"
+            android:name=".modul.ModulActivity"
             android:exported="true" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".login.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".login.LoginActivity"
             android:exported="true" />
         <activity
             android:name=".StartActivity"
@@ -40,7 +43,7 @@
             android:name=".HomeActivity"
             android:exported="true" />
         <activity
-            android:name=".AvatarActivity"
+            android:name=".avatar.AvatarActivity"
             android:exported="true" />
     </application>
 

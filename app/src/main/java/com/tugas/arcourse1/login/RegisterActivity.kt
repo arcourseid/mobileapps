@@ -1,4 +1,4 @@
-package com.tugas.arcourse1
+package com.tugas.arcourse1.login
 
 import android.app.ProgressDialog
 import android.content.Intent
@@ -8,6 +8,7 @@ import android.text.TextUtils
 import android.util.Patterns
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
+import com.tugas.arcourse1.HomeActivity
 import com.tugas.arcourse1.databinding.ActivityRegisterBinding
 
 class RegisterActivity : AppCompatActivity() {

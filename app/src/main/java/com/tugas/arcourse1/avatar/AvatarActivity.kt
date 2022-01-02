@@ -1,11 +1,13 @@
-package com.tugas.arcourse1
+package com.tugas.arcourse1.avatar
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
+import android.view.View
 import com.google.android.material.bottomsheet.BottomSheetDialog
+import com.tugas.arcourse1.R
 import com.tugas.arcourse1.databinding.ActivityAvatarBinding
-import kotlinx.android.synthetic.main.fragment_editprofil.*
 
 class AvatarActivity : AppCompatActivity() {
 
@@ -25,8 +27,17 @@ class AvatarActivity : AppCompatActivity() {
                 R.layout.fragment_editprofil,
                 findViewById(R.id.bottomSheetDialog)
             )
+
+            bottomSheetView.findViewById<View>(R.id.btnSelesai).setOnClickListener {
+                bottomSheetDialog.dismiss()
+            }
+
             bottomSheetDialog.setContentView(bottomSheetView)
             bottomSheetDialog.show()
+        }
+
+        binding.imgShop.setOnClickListener {
+            startActivity(Intent(this, ShopActivity::class.java))
         }
     }
 }
