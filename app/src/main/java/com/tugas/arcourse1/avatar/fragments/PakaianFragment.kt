@@ -7,15 +7,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.tugas.arcourse1.R
-import com.tugas.arcourse1.avatar.adapter.PhotoAdapter
+import com.tugas.arcourse1.avatar.adapter.RecyclerViewAdapter
 import com.tugas.arcourse1.data.DataModel
 import kotlinx.android.synthetic.main.fragment_pakaian.*
 
 class PakaianFragment : Fragment() {
 
-    private lateinit var photoAdapter: PhotoAdapter
+    private lateinit var recyclerViewAdapter: RecyclerViewAdapter
     private var layoutManager: RecyclerView.LayoutManager? = null
     private var adapter: RecyclerView.Adapter<RecyclerView.ViewHolder>? = null
     private var dataList = mutableListOf<DataModel>()
@@ -32,8 +31,8 @@ class PakaianFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         rvPakaian.apply {
             rvPakaian.layoutManager = GridLayoutManager(context, 2)
-            photoAdapter = PhotoAdapter()
-            rvPakaian.adapter = photoAdapter
+            recyclerViewAdapter = RecyclerViewAdapter()
+            rvPakaian.adapter = recyclerViewAdapter
 
             dataList.add(DataModel("Outfit Kece Abis", "25", R.drawable.img_outfit1))
             dataList.add(DataModel("Rumahan #1", "10", R.drawable.img_outfit2))
@@ -46,7 +45,7 @@ class PakaianFragment : Fragment() {
             dataList.add(DataModel("Dilanku bukan Dilanmu", "25", R.drawable.img_outfit9))
             dataList.add(DataModel("Tentara Gagah Berani", "15", R.drawable.img_outfit10))
 
-            photoAdapter.setDataList(dataList)
+            recyclerViewAdapter.setDataList(dataList)
         }
     }
 }

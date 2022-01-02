@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.tugas.arcourse1.R
 import com.tugas.arcourse1.data.DataModel
 
-class PhotoAdapter : RecyclerView.Adapter<PhotoAdapter.ViewHolder>() {
+class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>() {
     var dataList = emptyList<DataModel>()
 
     internal fun setDataList(dataList: List<DataModel>) {
