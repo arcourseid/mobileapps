@@ -30,7 +30,7 @@
         android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvHelloSmartPeople"/>
+        app:layout_constraintTop_toBottomOf="@id/tvHelloSmartPeople" />
 
     <LinearLayout
         android:id="@+id/lySignUp"
@@ -56,10 +56,29 @@
                 android:background="@drawable/edt_puple"
                 android:drawablePadding="6dp"
                 android:fontFamily="@font/productsansregular"
-                android:hint="Name"
+                android:hint="Nama Lengkap"
                 android:inputType="text"
                 android:textColor="@color/purple_500" />
 
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp">
+
+            <EditText
+                android:id="@+id/edtPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edt_puple"
+                android:drawablePadding="6dp"
+                android:fontFamily="@font/productsansregular"
+                android:hint="Nomor Telepon"
+                android:inputType="numberDecimal"
+                android:textColor="@color/purple_500" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -101,15 +120,57 @@
                 android:textColor="@color/purple_500" />
         </com.google.android.material.textfield.TextInputLayout>
 
+        <Spinner
+            android:id="@+id/spinJenisKelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/edt_puple"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp" />
+
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:layout_marginTop="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
             android:fontFamily="@font/productsansregular"
-            android:text="Forget Password?"
-            android:textColor="@color/purple_500"
-            android:textSize="14sp" />
+            android:text="Jenjang Pendidikan" />
+
+        <RadioGroup
+            android:id="@+id/rgPendidikan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbSD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/productsansregular"
+                android:text="SD" />
+
+            <RadioButton
+                android:id="@+id/rbSMP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/productsansregular"
+                android:text="SMP" />
+
+            <RadioButton
+                android:id="@+id/rbSMA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/productsansregular"
+                android:text="SMA" />
+
+        </RadioGroup>
 
     </LinearLayout>
 
@@ -121,14 +182,14 @@
         android:layout_marginEnd="28dp"
         android:layout_marginBottom="24dp"
         android:background="@drawable/btn_rounded_purple"
+        android:fontFamily="@font/productsansbold"
         android:text="Sign Up"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:fontFamily="@font/productsansbold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@id/tvAlreadyHaveAccount"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -137,12 +198,13 @@
         android:layout_height="wrap_content"
         android:layout_gravity="end"
         android:layout_marginTop="12dp"
-        android:fontFamily="@font/productsansregular"
-        android:text="Already Have Account? Login"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:textColor="@color/purple_500"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginBottom="24dp"
-        android:textSize="14sp" />
+        android:fontFamily="@font/productsansregular"
+        android:text="Sudah punya akun? Login"
+        android:textColor="@color/purple_500"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

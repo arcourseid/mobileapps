@@ -6,18 +6,28 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.tugas.arcourse1.R
 import com.tugas.arcourse1.avatar.adapter.RecyclerViewAdapter
 import com.tugas.arcourse1.data.DataModel
 import kotlinx.android.synthetic.main.fragment_celana.*
 
-class CelanaFragment : Fragment() {
+class CelanaFragment : Fragment(), RecyclerViewAdapter.ClickListener {
 
-    private lateinit var recyclerViewAdapter: RecyclerViewAdapter
-    private var layoutManager: RecyclerView.LayoutManager? = null
-    private var adapter: RecyclerView.Adapter<RecyclerView.ViewHolder>? = null
-    private var dataList = mutableListOf<DataModel>()
+    val Celana = arrayOf(
+        DataModel("Kece Abis", "25", R.drawable.img_celana1),
+        DataModel("Casual Tetap Ganteng", "25", R.drawable.img_celana2),
+        DataModel("Rumahan #1", "25", R.drawable.img_celana3),
+        DataModel("Tentara Gagah Berani", "25", R.drawable.img_celana4),
+        DataModel("Rumahan #2", "25", R.drawable.img_celana5),
+        DataModel("Nongkrong Santai #1", "25", R.drawable.img_celana6),
+        DataModel("Rumahan #3", "25", R.drawable.img_celana7),
+        DataModel("Rumahan #4", "25", R.drawable.img_celana8),
+        DataModel("Dilanku bukan Dilanmu", "25", R.drawable.img_celana9),
+        DataModel("Nongkrong Santai #2", "25", R.drawable.img_celana10)
+    )
+
+    val itemModelList = ArrayList<DataModel>()
+    var recyclerViewAdapter: RecyclerViewAdapter? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -29,23 +39,19 @@ class CelanaFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        rvCelana.apply {
-            rvCelana.layoutManager = GridLayoutManager(context, 2)
-            recyclerViewAdapter = RecyclerViewAdapter()
-            rvCelana.adapter = recyclerViewAdapter
 
-            dataList.add(DataModel("Kece Abis", "25", R.drawable.img_celana1))
-            dataList.add(DataModel("Casual Tetap Ganteng", "15", R.drawable.img_celana2))
-            dataList.add(DataModel("Rumahan #1", "20", R.drawable.img_celana3))
-            dataList.add(DataModel("Tentara Gagah Berani", "15", R.drawable.img_celana4))
-            dataList.add(DataModel("Rumahan #2", "15", R.drawable.img_celana5))
-            dataList.add(DataModel("Nongkrong Santai #1", "25", R.drawable.img_celana6))
-            dataList.add(DataModel("Rumahan #3", "10", R.drawable.img_celana7))
-            dataList.add(DataModel("Rumahan #4", "10", R.drawable.img_celana8))
-            dataList.add(DataModel("Dilanku bukan Dilanmu", "25", R.drawable.img_celana9))
-            dataList.add(DataModel("Nongkrong Santai #2", "25", R.drawable.img_celana10))
-
-            recyclerViewAdapter.setDataList(dataList)
+        for (item in Celana) {
+            itemModelList.add(item)
         }
+
+        recyclerViewAdapter = RecyclerViewAdapter(this)
+        recyclerViewAdapter!!.setData(itemModelList)
+        rvCelana.layoutManager = GridLayoutManager(context, 2)
+        rvCelana.setHasFixedSize(true)
+        rvCelana.adapter = recyclerViewAdapter
+    }
+
+    override fun ClickedItem(itemModel: DataModel) {
+        TODO("Not yet implemented")
     }
 }

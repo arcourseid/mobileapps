@@ -1,10 +1,9 @@
 <resources>
     <string name="app_name">ARCourse1</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="definisi">Secara umum, limas dapat diartikan sebagai salah satu bangun ruang sisi datar yang dibatasi oleh sebuah sisi alas yang berupa segibanyak dan sisi-sisi tegak yang berbentuk segitiga.
-            Salah satu titik sudut dari masing-masing segitiga tersebut bertemu pada satu titik yaitu titik puncak limas.\n
-            Pemberian nama pada limas berdasarkan pada bentuk alasnya. Suatu limas yang alasnya berbentuk segitiga disebut dengan limas segitiga, limas dengan sisi alas berbentuk segi empat diberi nama limas segi empat, dan begitu pula dengan sisi alas yang berbentuk segibanyak lainnya.
+    <string name="definisi">Secara umum, limas dapat diartikan sebagai salah satu bangun ruang sisi datar yang dibatasi oleh sebuah sisi alas yang berupa segibanyak dan sisi-sisi tegak yang berbentuk segitiga. Salah satu titik sudut dari masing-masing segitiga tersebut bertemu pada satu titik yaitu titik puncak limas.
     </string>
+    <string name="definisi2">Pemberian nama pada limas berdasarkan pada bentuk alasnya. Suatu limas yang alasnya berbentuk segitiga disebut dengan limas segitiga, limas dengan sisi alas berbentuk segi empat diberi nama limas segi empat, dan begitu pula dengan sisi alas yang berbentuk segibanyak lainnya.</string>
     <string name="sifat">Berikut merupakan sifat-sifat yang dimiliki bangun ruang limas segi-n.\n
             •	Banyak sisi\n
                 Banyak sisi pada limas segi-n adalah n + 1 buah, sebuah sisi alas dan n buah sisi tegak berbentuk segitiga.\n
@@ -32,4 +31,5 @@
     </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="formatted_time">%d</string>
 </resources>

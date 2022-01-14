@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:padding="5dp">
 
-            <com.makeramen.roundedimageview.RoundedImageView
+            <ImageView
                 android:id="@+id/imgProfile"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
@@ -37,6 +37,7 @@
                 app:riv_corner_radius="10dp" />
 
             <ImageView
+                android:id="@+id/imgEdit"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="-15dp"
@@ -66,9 +67,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="32dp"
                 android:background="@drawable/bg_edt_profile"
+                android:fontFamily="@font/productsansregular"
                 android:inputType="text"
                 android:paddingStart="5dp"
-                android:paddingEnd="5dp" />
+                android:paddingEnd="5dp"
+                android:textSize="13sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -86,9 +89,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="32dp"
                 android:background="@drawable/bg_edt_profile"
+                android:fontFamily="@font/productsansregular"
                 android:inputType="text"
                 android:paddingStart="5dp"
-                android:paddingEnd="5dp"/>
+                android:paddingEnd="5dp"
+                android:textSize="13sp" />
 
         </LinearLayout>
 
@@ -107,16 +112,18 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
             android:fontFamily="@font/productsansregular"
-            android:text="Email" />
+            android:text="Pendidikan" />
 
         <EditText
-            android:id="@+id/edtEmail"
+            android:id="@+id/edtPendidikan"
             android:layout_width="match_parent"
             android:layout_height="32dp"
             android:background="@drawable/bg_edt_profile"
+            android:fontFamily="@font/productsansregular"
             android:inputType="text"
             android:paddingStart="5dp"
-            android:paddingEnd="2dp" />
+            android:paddingEnd="2dp"
+            android:textSize="13sp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -127,16 +134,19 @@
             android:inputType="text"
             android:paddingStart="2dp"
             android:paddingEnd="2dp"
-            android:text="Phone" />
+            android:text="Phone"
+            android:textSize="12sp" />
 
         <EditText
             android:id="@+id/edtPhone"
             android:layout_width="match_parent"
             android:layout_height="32dp"
+            android:background="@drawable/bg_edt_profile"
+            android:fontFamily="@font/productsansregular"
+            android:inputType="numberDecimal"
             android:paddingStart="5dp"
             android:paddingEnd="5dp"
-            android:background="@drawable/bg_edt_profile"
-            android:inputType="numberDecimal" />
+            android:textSize="13sp" />
 
     </LinearLayout>
 
