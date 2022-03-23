@@ -6,6 +6,7 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.Toast
@@ -28,6 +29,8 @@ import kotlinx.android.synthetic.main.photo_layout.*
 import java.io.ByteArrayOutputStream
 
 class AvatarActivity : AppCompatActivity() {
+
+    private val TAG = "AvatarActivity"
 
     private lateinit var imageUri: Uri
     private lateinit var auth: FirebaseAuth
@@ -56,7 +59,7 @@ class AvatarActivity : AppCompatActivity() {
             }
 
             override fun onCancelled(error: DatabaseError) {
-                TODO("Not yet implemented")
+                Log.w(TAG, "loadPost:onCancelled", error.toException())
             }
         })
 
@@ -87,7 +90,7 @@ class AvatarActivity : AppCompatActivity() {
                 }
 
                 override fun onCancelled(error: DatabaseError) {
-                    TODO("Not yet implemented")
+                    Log.w(TAG, "loadPost:onCancelled", error.toException())
                 }
             })
 

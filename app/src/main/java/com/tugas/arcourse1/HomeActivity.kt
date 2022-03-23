@@ -3,6 +3,7 @@ package com.tugas.arcourse1
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import com.tugas.arcourse1.avatar.AvatarActivity
@@ -12,6 +13,8 @@ import com.tugas.arcourse1.modul.ModulActivity
 import kotlinx.android.synthetic.main.activity_home.*
 
 class HomeActivity : AppCompatActivity() {
+
+    private val TAG = "HomeActivity"
 
     private lateinit var binding: ActivityHomeBinding
     private lateinit var firebaseAuth: FirebaseAuth
@@ -35,7 +38,7 @@ class HomeActivity : AppCompatActivity() {
             }
 
             override fun onCancelled(error: DatabaseError) {
-                TODO("Not yet implemented")
+                Log.w(TAG, "loadPost:onCancelled", error.toException())
             }
 
         })
