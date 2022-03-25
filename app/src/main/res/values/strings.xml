@@ -32,4 +32,95 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="formatted_time">%d</string>
+
+    <!-- KUBUS -->
+    <string name="contoh_awal_kubus">Pernahkan kamu melihat gambar-gambar di atas?
+Sebelum lanjut, dapatkah kamu menyebutkan gambar diatas merupakan contoh bangun ruang apa?
+Yaa rubik, kado dan dadu merupakan contoh dari kubus. Untuk lebih jelasnya, perhatikan gambar berikut
+</string>
+    <string name="definisi_kubus">Kubus  merupakan bangun ruang yang dibatasi oleh enam daerah persegi yang kongruen (sama besar). Pada bangun ruang, sisi merupakan bidang yang membatasi bangun. Sisi-sisi pada kubus memiliki bentuk yang sama berupa persegi. Jadi sekarang sudah paham mengenai sisi kubus kan? Jika masih bingung mengenai kubus, perhatikan uraian berikut</string>
+    <string name="elemen_kubus">Nama bangunnya adalah kubus ABCD.EFGH
+Rusuknya adalah AB, BC, CD, AD, EF, FG, GH, EH
+Sisinya adalah ABCD, EFGH, ABFE, DCGH, BCGF, ADHE
+Titik sudutnya adalah A, B, C, D, E, F, G, H
+Diagonal sisinya adalah AF, BE, BG, CF, CH, DG, AH, DE, AC, BD, EG, FH
+Diagonal ruangnya adalah HB, DF, AG, CE
+Bidang diagonalnya adalah BCHE, AFGD, ABGH, CDEF, DBFH, ACGE
+</string>
+
+    <string name="sisi_bidang_kubus">Sisi kubus adalah bidang yang membatasi kubus. Gambar di bawah menunjukkan bahwa kubus memiliki 6 buah sisi yang semuanya berbentuk persegi, yaitu ABCD (sisi bawah), EFGH (sisi atas), ABFE (sisi depan), CDHG (sisi belakang), BCGF (sisi samping kanan), dan ADHE (sisi samping kiri). Sisi / Bidang ABCD = EFGH = ABFE = CDHG = ADHE = BCGF</string>
+    <string name="rusuk_kubus">Rusuk kubus adalah garis potong antara dua sisi bidang kubus dan terlihat seperti kerangka yang menyusun kubus. Kubus ABCD.EFGH memiliki 12 buah rusuk, yaitu AB, BC, CD, DA, EF, FG, GH, HE, AE, BF, CG, dan DH.</string>
+    <string name="titik_sudut_kubus">Titik sudut kubus adalah titik potong antara dua rusuk. Gambar di bawah menunjukkan bahwa kubus ABCD. EFGH memiliki 8 buah titik sudut, yaitu titik A, B, C, D, E, F, G, dan H.</string>
+    <string name="diagonal_bidang_kubus">Sebuah garis dikatakan diagonal bidang jika garis tersebut menghubungkan dua titik yang berseberangan terletak pada satu bidang. Jumlah diagonal bidang pada kubus adalah 12 buah. Panjang diagonal sisi/ bidang AC = BD = EG = HF = AF = BE = CH = DG = AH = DE = BG = CF </string>
+    <string name="diagonal_ruang_kubus">Pada kubus tersebut, terdapat ruas garis HB yang menghubungkan dua titik sudut yang saling berhadapan dalam satu ruang. Ruas garis tersebut disebut diagonal ruang. Panjang diagonal ruang AG = BH = CE = DF
+Terdapat 4 buah diagonal ruang pada sebuah kubus dengan panjang sama.
+</string>
+    <string name="bidang_diagonal_kubus">Bidang- bidang diagonal adalah bidang- bidang pada bangun ruang yang menghubungkan ruas garis- garis yang berseberangan, sehingga membagi bangun ruang itu menjadi dua bagian yang sama.
+Terdapat 6 buah bidang diagonal, yaitu : ACGE, BDHF, ABGH, CDEF, ADGF, BCHE
+Bidang diagonal ACGE = BDHF = ABGH = CDEF = ADGF = BCHE
+</string>
+
+    <string name="sifat1_kubus">Semua sisi kubus berbentuk persegi.
+Jika diperhatikan, sisi ABCD, EFGH, ABFE dan seterusnya memiliki bentuk persegi dan memiliki luas yang sama.
+</string>
+    <string name="sifat2_kubus">Semua rusuk kubus berukuran sama panjang.
+Rusuk-rusuk kubus AB, BC, CD, dan seterusnya memiliki ukuran yang sama panjang.
+</string>
+
+    <string name="sifat3_kubus">Setiap diagonal bidang pada kubus memiliki ukuran yang sama panjang.
+Perhatikan ruas garis BG dan CF pada Gambar di atas. Kedua garis tersebut merupakan diagonal bidang kubus ABCD.EFGH yang memiliki ukuran sama panjang.
+</string>
+
+    <string name="sifat4_kubus">Setiap diagonal ruang pada kubus memiliki ukuran sama panjang.
+Dari kubus ABCD.EFGH pada Gambar di atas, terdapat dua diagonal ruang, yaitu HB dan DF yang keduanya berukuran sama panjang.
+</string>
+
+    <string name="sifat5_kubus">Setiap bidang diagonal pada kubus memiliki bentuk persegipanjang.
+Perhatikan bidang diagonal ACGE pada Gambar di atas. Terlihat dengan jelas bahwa bidang diagonal tersebut memiliki bentuk persegi panjang.
+
+</string>
+
+
+
+    <!-- BALOK -->
+
+    <string name="contoh_awal_balok">    Pernahkan kamu melihat gambar-gambar di atas?
+    Sebelum lanjut, dapatkah kamu menyebutkan gambar diatas merupakan contoh bangun ruang apa?
+    Yaa kotak tisu, kardus dan aquarium merupakan contoh dari balok. Untuk lebih jelasnya, perhatikan gambar berikut
+</string>
+    <string name="definisi_balok">Balok merupakan contoh bangun ruang. Balok memiliki enam sisi. Pada bangun ruang, sisi merupakan bidang yang membatasi bangun. Sisi-sisi pada balok berupa bidang yang berbentuk persegipanjang atau sebagian berupa persegi. Sisi persegipanjang di atas antara lain adalah sisi ABFE. Dapatkah kamu menyebutkan nama sisi-sisi lainnya? Persegipanjang memiliki empat sisi yang berupa garis. Balok memiliki enam sisi berupa bidang. Jadi, sekarang sudah jelas perbedaan sisi pada bangun datar dan sisi pada bangun ruang.</string>
+    <string name="elemen_balok">Nama bangunnya adalah Balok KLMN.OPQR
+Rusuknya adalah KL, LM, MN, NK, OP, PQ, QR, RO, PL, QM, RN, OK
+Sisinya adalah KLMN, OPQR, KLPO, NMQR, LMQP, KNRO
+Titik sudutnya adalah K, L, M, N, O, P, Q, R
+Diagonal sisinya adalah LQ, MP, LO, PK, KR, NO, NQ, RM, KM, LN, OQ, PR
+Diagonal ruangnya adalah LR, PN, MO, KQ
+Bidang diagonalnya adalah LMRO, KPQN, OPMN, KLQR, KMQO, NLPR
+
+</string>
+
+    <string name="sisi_bidang_balok">Bidang/sisi pada sebuah balok adalah bagun datar yang memisahkan antara bagian dalam dan bagian luar. Banyaknya sisi yang dimilikinya sebanyak 6 sisi.
+Sisi alas : ABCD, Sisi atas : EFGH
+Sisi kanan : BCGF, Sisi kiri : ADHF
+Sisi depan : ABFE, Sisi belakang : CDHG
+</string>
+    <string name="rusuk_balok">Rusuk pada sebuah balok adalah garis potong antara sisi-sisi balok.Penulisan/penamannya rusuk menggunakan notasi dua huruf kapital. Pada balok ABCD.EFGH terdapat 12 rusuk yang sama panjang yaitu :
+Rusuk Alas : AB, BC, CD, AD
+Rusuk Tegak : AE, BF, CG, DH
+Rusuk Atas :  EF, FG, GH, EH
+</string>
+    <string name="titik_sudut_balok">Titik sudut pada sebuah balok adalah titik temu atau titik potong ketiga rusuk (titik pojok balok).
+Pada balok ABCD.EFGH terdapat 8 buah titik sudut yaitu :
+</string>
+    <string name="diagonal_bidang_balok">Diagonal bidang/sisi pada sebuah balok adalah ruas garis yang terbentuk oleh sudut yang berhadapan pada satu bidang. Ada 12 diagonal sisi, hal ini didapat karena pada kubus dan balok mempunyai 6 bidang/sisi masing-masing bidang tersebut memiliki 2 sudut yang berhapan maka didapatkanlah 2 diagonal sisi, maka 2 x 6 (banyaknyasisi) = 12.</string>
+    <string name="diagonal_ruang_balok">Diagonal ruang sebuah balok adalah ruas garis yang menghubungkan dua titik sudut berhadapan dalam balok. Terdapat 4 diagonal ruang, yaitu: AG, BH, CE, DF.
+</string>
+    <string name="bidang_diagonal_balok">Bidang diagonal pada sebuah balok adalah bidang yang melalui dua buah rusuk yang berhadapan. Bidang diagonal balok membagi balok menjadi dua bagian yang sama besar. Terdapat 6 buah bidang diagonal, yaitu : ACGE, BDHF, ABGH, CDEF, ADGF, BCHE
+</string>
+    <string name="sifatbalok">Balok memiliki sifat yang hampir sama dengan kubus. Amatilah balok ABCD.EFGH pada gambar di atas. Berikut ini akan diuraikan sifat-sifat balok.</string>
+    <string name="sifat1balok">Coba kamu perhatikan sisi ABCD, EFGH, ABFE, dan seterusnya. Sisi-sisi tersebut memiliki bentuk persegipanjang. Dalam balok, minimal memiliki dua pasang sisi yang berbentuk persegipanjang.</string>
+    <string name="sifat2balok">Perhatikan rusuk-rusuk balok pada gambar disamping Rusuk-rusuk yang sejajar seperti AB, CD, EF, dan GH memiliki ukuran yang sama panjang begitu pula dengan rusuk AE, BF, CG, dan DH memiliki ukuran yang sama panjang.</string>
+    <string name="sifat3balok">Dari gambar terlihat bahwa panjang diagonal bidang pada sisi yang berhadapan, yaitu ABCD dengan EFGH, ABFE dengan DCGH, dan BCFG dengan ADHE memiliki ukuran yang sama panjang.</string>
+    <string name="sifat4balok">Diagonal ruang pada balok ABCD.EFGH, yaitu AG, EC, DF, dan HB memiliki panjang yang sama.</string>
+    <string name="sifat5balok">Coba kamu perhatikan balok ABCD.EFGH pada gambar. Bidang diagonal balok EDFC memiliki bentuk persegipanjang. Begitu pula dengan bidang diagonal lainnya.</string>
 </resources>

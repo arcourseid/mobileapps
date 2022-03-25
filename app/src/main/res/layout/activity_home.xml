@@ -52,6 +52,7 @@
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/white"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -93,52 +94,87 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/bangunRuang"
-                android:layout_width="300dp"
-                android:layout_height="300dp"
+            <GridLayout
+                android:id="@+id/layoutMateri"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginTop="24dp"
-                android:background="@drawable/bg_menu"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
+                android:columnCount="2"
+                android:rowCount="1"
+                android:background="@drawable/bg_blue_oval"
                 app:layout_constraintTop_toBottomOf="@id/layoutTrending">
 
-                <LinearLayout
-                    android:id="@+id/layoutBangunRuang"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_margin="12dp"
-                    android:background="@drawable/bg_white_rectangle"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="15dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintDimensionRatio="H, 1:1"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/kubus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_column="0"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
 
-                    <ImageView
-                        android:id="@+id/bangun_ruang"
-                        android:layout_width="180dp"
-                        android:layout_height="180dp"
-                        android:layout_margin="8dp"
-                        android:contentDescription="@string/app_name"
-                        android:padding="8dp"
-                        android:src="@drawable/img_bangun_ruang" />
-
-                    <TextView
-                        android:layout_width="match_parent"
+                    <LinearLayout
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="Bangun Ruang"
-                        android:textColor="@color/black"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:orientation="vertical"
+                        android:layout_margin="8dp"
+                        android:layout_gravity="center_vertical|center_horizontal">
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/kubus"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="Kubus"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
 
-                </LinearLayout>
+                </androidx.cardview.widget.CardView>
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/balok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="8dp"
+                        android:layout_gravity="center_vertical|center_horizontal">
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/balok"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="Balok"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </GridLayout>
 
             <Button
                 android:id="@+id/btnLogout"
@@ -149,8 +185,7 @@
                 android:text="Logout"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/bangunRuang" />
-
+                app:layout_constraintTop_toBottomOf="@id/layoutMateri" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

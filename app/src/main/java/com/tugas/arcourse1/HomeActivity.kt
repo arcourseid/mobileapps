@@ -9,6 +9,8 @@ import com.google.firebase.database.*
 import com.tugas.arcourse1.avatar.AvatarActivity
 import com.tugas.arcourse1.databinding.ActivityHomeBinding
 import com.tugas.arcourse1.login.LoginActivity
+import com.tugas.arcourse1.modul.BalokActivity
+import com.tugas.arcourse1.modul.KubusActivity
 import com.tugas.arcourse1.modul.ModulActivity
 import kotlinx.android.synthetic.main.activity_home.*
 
@@ -44,8 +46,12 @@ class HomeActivity : AppCompatActivity() {
         })
 
         checkUser()
-        binding.layoutBangunRuang.setOnClickListener {
-            startActivity(Intent(this, ModulActivity::class.java))
+        binding.kubus.setOnClickListener {
+            startActivity(Intent(this, KubusActivity::class.java))
+        }
+
+        binding.balok.setOnClickListener {
+            startActivity(Intent(this, BalokActivity::class.java))
         }
 
         binding.btnLogout.setOnClickListener {
