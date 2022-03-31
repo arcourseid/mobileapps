@@ -1,4 +1,4 @@
-package com.tugas.arcourse1.modul
+package com.tugas.arcourse1.soal
 
 import android.content.Intent
 import android.graphics.Color
@@ -11,11 +11,12 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import com.tugas.arcourse1.R
 import com.tugas.arcourse1.data.QuestionData
-import com.tugas.arcourse1.data.setData
+import com.tugas.arcourse1.data.setDataKubus
+import com.tugas.arcourse1.modul.ResultActivity
 import kotlinx.android.synthetic.main.activity_question.*
 import java.util.concurrent.TimeUnit
 
-class QuestionActivity : AppCompatActivity() {
+class QuestionKubusActivity : AppCompatActivity() {
 
     companion object {
         const val TAG = "QuestionActivity"
@@ -29,7 +30,7 @@ class QuestionActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_question)
-        questionList = setData.getQuestion()
+        questionList = setDataKubus.getQuestion()
 
         setQuestion()
 
@@ -67,7 +68,7 @@ class QuestionActivity : AppCompatActivity() {
                     }
                     else -> {
                         var intent = Intent(this, ResultActivity::class.java)
-                        intent.putExtra(setData.score, score.toString())
+                        intent.putExtra(setDataKubus.score, score.toString())
                         intent.putExtra("Total Size", questionList!!.size.toString())
                         startActivity(intent)
                         finish()

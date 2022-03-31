@@ -8,7 +8,7 @@ import android.view.View
 import androidx.appcompat.app.AlertDialog
 import com.tugas.arcourse1.HomeActivity
 import com.tugas.arcourse1.R
-import com.tugas.arcourse1.data.setData
+import com.tugas.arcourse1.data.setDataLimas
 import kotlinx.android.synthetic.main.activity_result.*
 import kotlinx.android.synthetic.main.custom_dialog.*
 import kotlinx.android.synthetic.main.custom_dialog.view.*
@@ -17,7 +17,7 @@ class ResultActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
-        val score=intent.getStringExtra(setData.score)
+        val score=intent.getStringExtra(setDataLimas.score)
         val totalQuestion=intent.getStringExtra("Total Size")
 
         tvSelamat.text= "Selamat kamu mendapatkan ${score!!.toInt()*10} koin"

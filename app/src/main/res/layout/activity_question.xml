@@ -80,7 +80,7 @@
         android:padding="10dp"
         android:layout_marginTop="24dp"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
-        tools:context=".modul.QuestionActivity">
+        tools:context=".soal.QuestionLimasActivity">
 
         <TextView
             android:id="@+id/question_text"

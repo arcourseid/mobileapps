@@ -1,6 +1,6 @@
 package com.tugas.arcourse1.data
 
-object setData {
+object setDataLimas {
 
     const val score:String="score"
 

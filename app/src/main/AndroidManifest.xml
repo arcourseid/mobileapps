@@ -22,7 +22,7 @@
             android:name=".modul.ResultActivity"
             android:exported="true" />
         <activity
-            android:name=".modul.QuestionActivity"
+            android:name=".soal.QuestionLimasActivity"
             android:exported="true" />
         <activity
             android:name=".modul.ModulRewardActivity"
