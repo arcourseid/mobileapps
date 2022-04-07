@@ -19,5 +19,6 @@
     <color name="lightBlue">#e6f2ff</color>
     <color name="textBlue">#268eff</color>
     <color name="deepBlue">#425186</color>
+    <color name="grey">#B1B1B1</color>
     <color name="transparent">#0000ffff</color>
 </resources>

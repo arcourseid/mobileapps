@@ -73,6 +73,7 @@
         android:layout_gravity="center"
         android:layout_marginHorizontal="20dp"
         android:layout_marginVertical="20dp"
+        android:layout_marginTop="20dp"
         android:src="@drawable/img_koin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

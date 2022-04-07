@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/smokyWhite"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/smokyWhite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/imgBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/ic_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Lingkaran"
+                android:textColor="@color/blue_figma"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/lingkaran_pics1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/contoh_awal_lingkaran"
+                style="@style/Deskripsi" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/gambar2balok" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Apa itu Lingkaran?"
+                android:textColor="#131313"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/definisi_lingkaran"
+                style="@style/Deskripsi" />
+
+            <ImageView
+                android:id="@+id/img_contoh"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/lingkaran_pics2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/definisi_lingkaran2"
+                style="@style/Deskripsi" />
+
+
+            <!--            Unsur-unsur Balok-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Unsur-unsur Lingkaran"
+                style="@style/Header" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Coba kalian perhatikan gambar lingkaran berikut ini!"
+                style="@style/Deskripsi" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/lingkaran_pics3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/unsur_lingkaran"
+                style="@style/Deskripsi" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nSekarang untuk menambah pemahaman kamu, mari kita ambil 1 pizza"
+                style="@style/Deskripsi" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/lingkaran_pics4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Pizza di atas memiliki bentuk lingkaran"
+                style="@style/Deskripsi" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/lingkaran_pics5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Pizza di atas disebut juring"
+                style="@style/Deskripsi" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/lingkaran_pics6" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Garis biru disamping disebut diameter"
+                style="@style/Deskripsi" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/lingkaran_pics7" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Sedangkan jika garis birunya hanya setengah dari lingkaran pizza maka itu disebut jari-jari."
+                style="@style/Deskripsi" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/lingkaran_pics8" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Lingkaran biru di samping disebut keliling"
+                style="@style/Deskripsi" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/lingkaran_pics9" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Sedangkan daerah yang ada di dalam lingkaran biru disebut luas"
+                style="@style/Deskripsi" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nlalu pertanyaannya, bagaimana cara menghitung keliling dan luas lingkaran?"
+                style="@style/Deskripsi" />
+
+            <!--            Keliling Lingkaran-->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="24dp"
+                android:layout_height="3dp"
+                android:background="@color/grey"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Keliling Lingkaran"
+                style="@style/Header" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/keliling_lingkaran1"
+                style="@style/Deskripsi" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/lingkaran_pics10" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/keliling_lingkaran2"
+                style="@style/Deskripsi" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:layout_gravity="left"
+                app:srcCompat="@drawable/lingkaran_pics11" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="\nContoh Soal Keliling Lingkaran #1"
+                style="@style/Header"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contoh_lingkaran1"
+                android:layout_marginTop="6dp"
+                style="@style/Deskripsi"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Pembahasan:"
+                style="@style/Header"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="r = 10 cm"
+                android:layout_marginTop="6dp"
+                style="@style/Deskripsi"/>
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:layout_gravity=""
+                app:srcCompat="@drawable/lingkaran_pics12" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jadi keliling lingkaran tersebut adalah 62,8 cm"
+                android:layout_marginTop="6dp"
+                style="@style/Deskripsi"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="\n\nContoh Soal Keliling Lingkaran #2"
+                style="@style/Header"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contoh_lingkaran2"
+                android:layout_marginTop="6dp"
+                style="@style/Deskripsi"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Pembahasan:"
+                style="@style/Header"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="d = 7 meter"
+                android:layout_marginTop="6dp"
+                style="@style/Deskripsi"/>
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:layout_gravity=""
+                app:srcCompat="@drawable/lingkaran_pics13" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Karena Pak Budi ingin memagari kolam dengan papan kayu yang berjarak 1/2 meter, maka:"
+                android:layout_marginTop="6dp"
+                style="@style/Deskripsi"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                app:srcCompat="@drawable/lingkaran_pics14" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jadi, banyak papan kayu yang dibutuhkan Pak Budi adalah 44 papan kayu."
+                android:layout_marginTop="6dp"
+                style="@style/Deskripsi"/>
+
+<!--            Luas Lingkaran-->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="24dp"
+                android:layout_height="3dp"
+                android:background="@color/grey"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Luas Lingkaran"
+                style="@style/Header" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/luas_lingkaran1"
+                android:layout_marginTop="6dp"
+                style="@style/Deskripsi"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="left"
+                app:srcCompat="@drawable/lingkaran_pics15" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/luas_lingkaran2"
+                android:layout_marginTop="6dp"
+                style="@style/Deskripsi"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="left"
+                app:srcCompat="@drawable/lingkaran_pics16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="\nContoh Soal Luas Lingkaran #1"
+                style="@style/Header"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contoh_luaslingkaran1"
+                android:layout_marginTop="6dp"
+                style="@style/Deskripsi"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Pembahasan:"
+                style="@style/Header"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="d = 14 meter, maka \nr = 14:2 = 7 meter"
+                android:layout_marginTop="6dp"
+                style="@style/Deskripsi"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                app:srcCompat="@drawable/lingkaran_pics17" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Karena setiap 11 m persegi akan ditanam satu jenis bunga, maka:
+                \n\nBanyaknya jenis bunga yang ditanam = 154:11 = 14 jenis bunga
+                \n\nJadi, terdapat 14 jenis bunga yang berbeda yang akan ditanam di taman."
+                android:layout_marginTop="6dp"
+                style="@style/Deskripsi"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="\n\nContoh Soal Luas Lingkaran #2"
+                style="@style/Header"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contoh_luaslingkaran2"
+                android:layout_marginTop="6dp"
+                style="@style/Deskripsi"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Pembahasan:"
+                style="@style/Header"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="K = 94,2 cm\nKarena diketahui kelilingnya, maka kita akan mencari jari-jari lingkaran terlebih dahulu:"
+                android:layout_marginTop="6dp"
+                style="@style/Deskripsi"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                app:srcCompat="@drawable/lingkaran_pics18" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Karena sudah diketahui jari-jarinya, maka dapat dihitung luasnya, yaitu:"
+                android:layout_marginTop="6dp"
+                style="@style/Deskripsi"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                app:srcCompat="@drawable/lingkaran_pics19" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jadi, luas lingkarannya adalah 706,5 cm persegi."
+                android:layout_marginTop="6dp"
+                style="@style/Deskripsi"/>
+
+            <Button
+                android:id="@+id/btn_modul"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/btn_rounded_purple"
+                android:gravity="center"
+                android:shadowRadius="9"
+                android:text="Selesai" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

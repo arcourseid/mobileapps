@@ -34,18 +34,16 @@
     <string name="formatted_time">%d</string>
 
     <!-- KUBUS -->
-    <string name="contoh_awal_kubus">Pernahkan kamu melihat gambar-gambar di atas?
-Sebelum lanjut, dapatkah kamu menyebutkan gambar diatas merupakan contoh bangun ruang apa?
-Yaa rubik, kado dan dadu merupakan contoh dari kubus. Untuk lebih jelasnya, perhatikan gambar berikut
+    <string name="contoh_awal_kubus">Pernahkan kamu melihat gambar-gambar di atas?\n\nSebelum lanjut, dapatkah kamu menyebutkan gambar diatas merupakan contoh bangun ruang apa?\n\nYaa rubik, kado dan dadu merupakan contoh dari kubus. Untuk lebih jelasnya, perhatikan gambar berikut\n
 </string>
     <string name="definisi_kubus">Kubus  merupakan bangun ruang yang dibatasi oleh enam daerah persegi yang kongruen (sama besar). Pada bangun ruang, sisi merupakan bidang yang membatasi bangun. Sisi-sisi pada kubus memiliki bentuk yang sama berupa persegi. Jadi sekarang sudah paham mengenai sisi kubus kan? Jika masih bingung mengenai kubus, perhatikan uraian berikut</string>
-    <string name="elemen_kubus">Nama bangunnya adalah kubus ABCD.EFGH
-Rusuknya adalah AB, BC, CD, AD, EF, FG, GH, EH
-Sisinya adalah ABCD, EFGH, ABFE, DCGH, BCGF, ADHE
-Titik sudutnya adalah A, B, C, D, E, F, G, H
-Diagonal sisinya adalah AF, BE, BG, CF, CH, DG, AH, DE, AC, BD, EG, FH
-Diagonal ruangnya adalah HB, DF, AG, CE
-Bidang diagonalnya adalah BCHE, AFGD, ABGH, CDEF, DBFH, ACGE
+    <string name="elemen_kubus">Nama bangunnya adalah kubus ABCD.EFGH\n
+•	Rusuknya adalah AB, BC, CD, AD, EF, FG, GH, EH\n
+•	Sisinya adalah ABCD, EFGH, ABFE, DCGH, BCGF, ADHE\n
+•	Titik sudutnya adalah A, B, C, D, E, F, G, H\n
+•	Diagonal sisinya adalah AF, BE, BG, CF, CH, DG, AH, DE, AC, BD, EG, FH\n
+•	Diagonal ruangnya adalah HB, DF, AG, CE\n
+•	Bidang diagonalnya adalah BCHE, AFGD, ABGH, CDEF, DBFH, ACGE\n
 </string>
 
     <string name="sisi_bidang_kubus">Sisi kubus adalah bidang yang membatasi kubus. Gambar di bawah menunjukkan bahwa kubus memiliki 6 buah sisi yang semuanya berbentuk persegi, yaitu ABCD (sisi bawah), EFGH (sisi atas), ABFE (sisi depan), CDHG (sisi belakang), BCGF (sisi samping kanan), dan ADHE (sisi samping kiri). Sisi / Bidang ABCD = EFGH = ABFE = CDHG = ADHE = BCGF</string>
@@ -81,33 +79,30 @@ Perhatikan bidang diagonal ACGE pada Gambar di atas. Terlihat dengan jelas bahwa
 </string>
 
 
-
     <!-- BALOK -->
 
-    <string name="contoh_awal_balok">    Pernahkan kamu melihat gambar-gambar di atas?
-    Sebelum lanjut, dapatkah kamu menyebutkan gambar diatas merupakan contoh bangun ruang apa?
-    Yaa kotak tisu, kardus dan aquarium merupakan contoh dari balok. Untuk lebih jelasnya, perhatikan gambar berikut
+    <string name="contoh_awal_balok">    Pernahkan kamu melihat gambar-gambar di atas?\n\nSebelum lanjut, dapatkah kamu menyebutkan gambar diatas merupakan contoh bangun ruang apa?\n\nYaa kotak tisu, kardus dan aquarium merupakan contoh dari balok. Untuk lebih jelasnya, perhatikan gambar berikut
 </string>
     <string name="definisi_balok">Balok merupakan contoh bangun ruang. Balok memiliki enam sisi. Pada bangun ruang, sisi merupakan bidang yang membatasi bangun. Sisi-sisi pada balok berupa bidang yang berbentuk persegipanjang atau sebagian berupa persegi. Sisi persegipanjang di atas antara lain adalah sisi ABFE. Dapatkah kamu menyebutkan nama sisi-sisi lainnya? Persegipanjang memiliki empat sisi yang berupa garis. Balok memiliki enam sisi berupa bidang. Jadi, sekarang sudah jelas perbedaan sisi pada bangun datar dan sisi pada bangun ruang.</string>
-    <string name="elemen_balok">Nama bangunnya adalah Balok KLMN.OPQR
-Rusuknya adalah KL, LM, MN, NK, OP, PQ, QR, RO, PL, QM, RN, OK
-Sisinya adalah KLMN, OPQR, KLPO, NMQR, LMQP, KNRO
-Titik sudutnya adalah K, L, M, N, O, P, Q, R
-Diagonal sisinya adalah LQ, MP, LO, PK, KR, NO, NQ, RM, KM, LN, OQ, PR
-Diagonal ruangnya adalah LR, PN, MO, KQ
-Bidang diagonalnya adalah LMRO, KPQN, OPMN, KLQR, KMQO, NLPR
+    <string name="elemen_balok">Nama bangunnya adalah Balok KLMN.OPQR\n
+•	Rusuknya adalah KL, LM, MN, NK, OP, PQ, QR, RO, PL, QM, RN, OK\n
+•	Sisinya adalah KLMN, OPQR, KLPO, NMQR, LMQP, KNRO\n
+•	Titik sudutnya adalah K, L, M, N, O, P, Q, R\n
+•	Diagonal sisinya adalah LQ, MP, LO, PK, KR, NO, NQ, RM, KM, LN, OQ, PR\n
+•	Diagonal ruangnya adalah LR, PN, MO, KQ\n
+•	Bidang diagonalnya adalah LMRO, KPQN, OPMN, KLQR, KMQO, NLPR\n
 
 </string>
 
-    <string name="sisi_bidang_balok">Bidang/sisi pada sebuah balok adalah bagun datar yang memisahkan antara bagian dalam dan bagian luar. Banyaknya sisi yang dimilikinya sebanyak 6 sisi.
-Sisi alas : ABCD, Sisi atas : EFGH
-Sisi kanan : BCGF, Sisi kiri : ADHF
-Sisi depan : ABFE, Sisi belakang : CDHG
+    <string name="sisi_bidang_balok">Bidang/sisi pada sebuah balok adalah bagun datar yang memisahkan antara bagian dalam dan bagian luar. Banyaknya sisi yang dimilikinya sebanyak 6 sisi.\n
+•	Sisi alas : ABCD, Sisi atas : EFGH\n
+•	Sisi kanan : BCGF, Sisi kiri : ADHF\n
+•	Sisi depan : ABFE, Sisi belakang : CDHG\n
 </string>
-    <string name="rusuk_balok">Rusuk pada sebuah balok adalah garis potong antara sisi-sisi balok.Penulisan/penamannya rusuk menggunakan notasi dua huruf kapital. Pada balok ABCD.EFGH terdapat 12 rusuk yang sama panjang yaitu :
-Rusuk Alas : AB, BC, CD, AD
-Rusuk Tegak : AE, BF, CG, DH
-Rusuk Atas :  EF, FG, GH, EH
+    <string name="rusuk_balok">Rusuk pada sebuah balok adalah garis potong antara sisi-sisi balok.Penulisan/penamannya rusuk menggunakan notasi dua huruf kapital. Pada balok ABCD.EFGH terdapat 12 rusuk yang sama panjang yaitu :\n
+•	Rusuk Alas : AB, BC, CD, AD\n
+•	Rusuk Tegak : AE, BF, CG, DH\n
+•	Rusuk Atas :  EF, FG, GH, EH\n
 </string>
     <string name="titik_sudut_balok">Titik sudut pada sebuah balok adalah titik temu atau titik potong ketiga rusuk (titik pojok balok).
 Pada balok ABCD.EFGH terdapat 8 buah titik sudut yaitu :
@@ -123,4 +118,54 @@ Pada balok ABCD.EFGH terdapat 8 buah titik sudut yaitu :
     <string name="sifat3balok">Dari gambar terlihat bahwa panjang diagonal bidang pada sisi yang berhadapan, yaitu ABCD dengan EFGH, ABFE dengan DCGH, dan BCFG dengan ADHE memiliki ukuran yang sama panjang.</string>
     <string name="sifat4balok">Diagonal ruang pada balok ABCD.EFGH, yaitu AG, EC, DF, dan HB memiliki panjang yang sama.</string>
     <string name="sifat5balok">Coba kamu perhatikan balok ABCD.EFGH pada gambar. Bidang diagonal balok EDFC memiliki bentuk persegipanjang. Begitu pula dengan bidang diagonal lainnya.</string>
+    
+<!--    LINGKARAN-->
+<string name="contoh_awal_lingkaran">Tahukah kamu nama benda di atas?\nJika kamu sudah tahu nama-nama bendanya, sekarang perhatikan bahwa benda-benda di atas semuanya berbentuk lingkaran. Lingkaran juga merupakan suatu bentuk bangun datar.
+    \n\nPada permasalahan sehari-hari, banyak contoh penerapan lingkaran seperti menghitung luas taman bentuk lingkaran, menghitung keliling roda sepeda, menghitung panjang lintasan roda bianglala, dan luas meja berbentuk lingkaran. Selain itu, cara menghitung keliling holahop.
+    \n\nApakah lingkaran itu? Sebutkan hal-hal yang berkaitan dengan lingkaran. Jelaskan apa yang dimaksud dengan keliling, dan luas lingkaran! Ayo, pahami penjelasan berikut ini.
+</string>
+    <string name="definisi_lingkaran">Lingkaran adalah kumpulan titik-titik yang berbentuk lengkungan tertutup, dimana titik-titik pada lengkungan tersebut berjarak sama terhadap suatu titik tertentu</string>
+    <string name="definisi_lingkaran2">Titik tertentu yang dimaksud di atas disebut Titik Pusat Lingkaran, pada gambar di atas titik pusat lingkaran di O\n
+   •	Jarak OA, OB, OC disebut jari-jari lingkaran </string>
+    <string name="unsur_lingkaran">
+        1. Titik Pusat (P): Titik yang menjadi pusat lingkaran yang terletak tepat di tengah lingkaran\n
+2. Jari-jari (r): jarak antara pusat lingkaran dengan titik pada lingkaran\n
+3. Diameter (d): garis yang menghubungkan dua titik pada lingkaran melalui titik pusat\n
+4. Busur Lingkaran: garis berbentuk melengkung pada tepian lingkaran\n
+5. Tali Busur: garis yang menghubungkan dua titik pada lingkaran\n
+6. Juring Lingkaran: daerah yang dibatasi oleh busur dan dua jari-jari lingkaran\n
+7. Tembereng: daerah yang dibatasi oleh busur dan tali busur\n
+8. Apotema: garis yang menghubungkan titik pusat dengan tali busur (tegak lurus dengan tali busur)
+    </string>
+
+    <string name="keliling_lingkaran1">
+        Keliling lingkaran merupakan busur terpanjang pada suatu lingkaran. Dalam menghitung keliling lingkaran tidaklah sulit. Sobat Pintar dapat menggunakan dua cara untuk menghitung keliling lingkaran, yaitu jika diketahui jari-jari (r) atau jika diketahui diameter (d). Sobat AR tahu kan, bahwa diameter lingkaran merupakan dua kali jari-jari lingkaran?\n\nNah, oleh karena itu, rumus dari keliling lingkaran adalah:
+    </string>
+
+    <string name="keliling_lingkaran2">
+        Keterangan:
+\nK = keliling lingkaran
+\nπ = bernilai 22/7 atau 3,14
+\nR = jari-jari lingkaran
+\nD = diameter lingkaran
+\n\nApabila yang dicari adalah jari-jari lingkaran dengan diketahui keliling lingkarannya, maka berlaku rumus  lingkaran berikut:
+    </string>
+    <string name="contoh_lingkaran1">
+        Sebuah lingkaran berjari-jari 10 cm, keliling dari lingkaran tersebut adalah ....
+    </string>
+    <string name="contoh_lingkaran2">
+        Pak Budi memiliki sebuah kolam berbentuk lingkaran dengan diameter 7 meter. Pak Budi ingin memagari kolam dengan papan kayu. Jika Pak Budi memberikan jarak antar kayu sejauh ½ meter, maka berapa papan kayu yang dibutuhkan Pak Budi untuk memagari kolam?
+    </string>
+    <string name="luas_lingkaran1">
+        Kita lanjut, yuk! Setelah membahas keliling, sekarang kita akan membahas luas suatu lingkaran. Luas lingkaran dapat dihitung dengan menggunakan jari-jari lingkaran. Jika yang diketahui diameternya, maka ubah diameter menjadi jari-jari. Caranya, bagi diameter dengan 2.\n\nNah, oleh karena itu, rumus dari luas lingkaran adalah:
+    </string>
+    <string name="luas_lingkaran2">
+        Apabila yang dicari adalah jari-jari lingkaran dengan diketahui luas lingkarannya, maka berlaku rumus  lingkaran berikut:
+    </string>
+    <string name="contoh_luaslingkaran1">
+        Sebuah taman dengan diameter 14 meter akan ditanami beberapa jenis bunga. Jika setiap 11 m2 akan ditanami satu jenis bunga saja, maka ada berapa jenis bunga yang akan ditanam di taman?
+    </string>
+    <string name="contoh_luaslingkaran2">
+        Luas lingkaran jika kelilingnya sama dengan 94,2 cm, yaitu ....
+    </string>
 </resources>

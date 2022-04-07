@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ARCourse1">
         <activity
+            android:name=".modul.QuizActivity"
+            android:exported="false" />
+        <activity
             android:name=".modul.BalokActivity"
             android:exported="false" />
         <activity

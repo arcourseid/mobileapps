@@ -33,7 +33,7 @@
                 android:layout_marginStart="20dp"
                 android:text="Balok"
                 android:textColor="@color/blue_figma"
-                android:textSize="16sp"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -66,14 +66,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="@string/contoh_awal_balok"
-                android:textAlignment="inherit"
-                android:textColor="@color/black"
-                android:textSize="12sp"
-                android:textStyle="normal" />
+                style="@style/Deskripsi" />
 
             <ImageView
-                android:layout_width="228dp"
-                android:layout_height="146dp"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/gambar2balok" />
 
@@ -83,14 +80,14 @@
                 android:layout_marginTop="15dp"
                 android:text="Apa itu Balok?"
                 android:textColor="#131313"
-                android:textSize="12dp"
+                android:textSize="18sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/definisi_balok"
-                android:textColor="#252424" />
+                style="@style/Deskripsi" />
 
             <ImageView
                 android:id="@+id/img_contoh"
@@ -103,7 +100,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/elemen_balok"
-                android:textColor="#252424" />
+                style="@style/Deskripsi" />
 
 
             <!--            Unsur-unsur Balok-->
@@ -113,21 +110,18 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
                 android:text="Unsur-unsur Balok"
-                android:textColor="#131313"
-                android:textSize="16dp"
-                android:textStyle="bold" />
+                style="@style/Header" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Sisi/Bidang"
-                android:textColor="#131313"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                style="@style/Header"
+                android:textSize="16sp"/>
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="150dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/pic15balok" />
 
@@ -135,20 +129,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/sisi_bidang_balok"
-                android:textColor="#252424" />
+                style="@style/Deskripsi" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Rusuk"
-                android:textColor="#131313"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                style="@style/Header"
+                android:textSize="16sp"/>
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="150dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/picture16" />
 
@@ -156,16 +149,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/rusuk_balok"
-                android:textColor="#252424" />
+                style="@style/Deskripsi" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Titik Sudut"
-                android:textColor="#131313"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                style="@style/Header"
+                android:textSize="16sp"/>
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -177,20 +169,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/titik_sudut_balok"
-                android:textColor="#252424" />
+                style="@style/Deskripsi" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Diagonal Bidang"
-                android:textColor="#131313"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                style="@style/Header"
+                android:textSize="16sp"/>
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="150dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/picture18" />
 
@@ -198,16 +189,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/diagonal_bidang_balok"
-                android:textColor="#252424" />
+                style="@style/Deskripsi" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Diagonal Ruang"
-                android:textColor="#131313"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                style="@style/Header"
+                android:textSize="16sp"/>
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -219,20 +209,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/diagonal_ruang_balok"
-                android:textColor="#252424" />
+                style="@style/Deskripsi" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Bidang Diagonal"
-                android:textColor="#131313"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                style="@style/Header"
+                android:textSize="16sp"/>
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="150dp"
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/picture20" />
 
@@ -240,7 +229,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/bidang_diagonal_balok"
-                android:textColor="#252424" />
+                style="@style/Deskripsi" />
 
             <!--            Sifat-sifat Balok-->
 
@@ -249,9 +238,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
                 android:text="Sifat-sifat Balok"
-                android:textColor="#131313"
-                android:textSize="16dp"
-                android:textStyle="bold" />
+                style="@style/Header" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -264,79 +251,74 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Sisi-sisi balok berbentuk persegi panjang"
-                android:textColor="#131313"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                style="@style/Header"
+                android:textSize="16sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/sifat1balok"
-                android:textColor="#252424" />
+                style="@style/Deskripsi" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Rusuk-rusuk yang sejajar memiliki ukuran sama panjang"
-                android:textColor="#131313"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                style="@style/Header"
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/sifat2balok"
                 android:layout_marginTop="6dp"
-                android:textColor="#252424" />
+                style="@style/Deskripsi"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Setiap diagonal bidang pad asisi yang berhadapan memiliki ukuran sama panjang"
-                android:textColor="#131313"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                style="@style/Header"
+                android:textSize="16sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/sifat3balok"
                 android:layout_marginTop="6dp"
-                android:textColor="#252424" />
+                style="@style/Deskripsi" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Setiap diagonal ruang pada balok memiliki ukuran sama panjang"
-                android:textColor="#131313"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                style="@style/Header"
+                android:textSize="16sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/sifat4balok"
                 android:layout_marginTop="6dp"
-                android:textColor="#252424" />
+                style="@style/Deskripsi" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Setiap bidang diagonal pada balok memiliki bentuk persegi panjang"
-                android:textColor="#131313"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                style="@style/Header"
+                android:textSize="16sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/sifat5balok"
                 android:layout_marginTop="6dp"
-                android:textColor="#252424" />
+                style="@style/Deskripsi" />
 
             <Button
                 android:id="@+id/btn_modul"

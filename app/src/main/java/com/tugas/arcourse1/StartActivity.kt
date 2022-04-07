@@ -19,13 +19,12 @@ class StartActivity : AppCompatActivity() {
         binding.btnSignUp.setOnClickListener {
             var intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
-
             finish()
         }
+
         binding.btnLogin.setOnClickListener {
             var intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
-
             finish()
         }
     }

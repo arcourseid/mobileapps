@@ -42,14 +42,15 @@
         <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/drawable/rounded_button.xml" value="0.290625" />
         <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/activity_avatar.xml" value="0.1" />
         <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/activity_balok.xml" value="0.1" />
-        <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/activity_home.xml" value="0.1" />
-        <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/activity_kubus.xml" value="0.18936567164179105" />
-        <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/activity_login.xml" value="0.16394927536231885" />
+        <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/activity_kubus.xml" value="0.176" />
+        <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/activity_modul.xml" value="0.264" />
         <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/activity_modul_reward.xml" value="0.264" />
-        <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/activity_question.xml" value="0.264" />
-        <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/activity_question.xml" value="0.1" />
+        <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/activity_quiz.xml" value="0.1" />
+        <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/activity_register.xml" value="0.14682539682539683" />
         <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/activity_result.xml" value="0.2" />
         <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/activity_shop.xml" value="0.1" />
         <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/activity_start.xml" value="0.2" />
@@ -58,15 +59,20 @@
         <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/fragment_celana.xml" value="0.2604166666666667" />
         <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/fragment_edit_avatar.xml" value="0.2" />
         <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/fragment_editprofil.xml" value="0.4" />
+        <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/fragment_modul_balok.xml" value="0.18397853583748563" />
+        <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/fragment_modul_kubus.xml" value="0.152" />
+        <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/fragment_modul_limas.xml" value="0.264" />
+        <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/fragment_modul_lingkaran.xml" value="0.176" />
         <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/fragment_pakaian.xml" value="0.1" />
-        <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/layout_modul.xml" value="0.264" />
+        <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/layout_modul.xml" value="0.1" />
         <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/photo_layout.xml" value="0.1" />
+        <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/layout/selesaimodul.xml" value="0.264" />
         <entry key="..\:/Dev/Android Fundamental/ARCourse1/app/src/main/res/menu/menu.xml" value="0.21145833333333333" />
         <entry key="..\:/Mobile/MVP/mobileapps/app/src/main/res/layout/activity_question.xml" value="0.3333333333333333" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
